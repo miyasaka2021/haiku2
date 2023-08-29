@@ -3,11 +3,11 @@
 #import os
 import openai
 #openai.api_key = os.environ.get('CHATGPT_API_KEY')
-api_key = st.secrets["api_key"]
 
 
 
 import streamlit as st
+api_key = st.secrets["api_key"]
 
 
 st.title('俳句ジェネレータ')
