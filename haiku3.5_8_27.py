@@ -7,7 +7,7 @@ import openai
 
 
 import streamlit as st
-api_key = st.secrets["api_key"]
+openai.api_key = st.secrets["api_key"]
 
 
 st.title('俳句ジェネレータ')
